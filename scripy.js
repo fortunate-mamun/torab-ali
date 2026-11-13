@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       statusBox.classList.add('closed');
       statusTitle.innerHTML = '🔴 আজ শুক্রবার — চেম্বার বন্ধ রয়েছে';
       statusTitle.style.color = '#dc2626';
-      statusDesc.textContent = 'আগামীকাল শনিবার বিকাল ৪টা থেকে চেম্বার পুনরায় খোলা থাকবে।';
+      statusDesc.textContent = 'আগামীকাল শনিবার বিকাল ৯টা থেকে চেম্বার পুনরায় খোলা থাকবে।';
     } else {
       statusBox.classList.remove('closed');
       statusTitle.innerHTML = '🟢 আজ চেম্বার খোলা আছে';
